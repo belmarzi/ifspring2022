@@ -1,0 +1,129 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+.contents{
+    width: 960px;
+    margin: auto;
+    
+}
+
+header{
+    text-align: center;
+    color:white;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/703/881/310/nintendo-retro-games-super-mario-video-games-wallpaper-preview.jpg");
+    background-size: cover; 
+}
+
+header .contents{
+    padding: 152px 0 186px 0;
+}
+
+header h1{
+    font-size: 80px;
+}
+
+header h2{
+    font-size: 30px;
+    line-height: .05;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    color: rgb(5, 56, 26);
+}
+.contents {
+    width: 960px;
+    margin: auto;
+    padding: 42px 0 20px 0;
+}
+#section1 {
+    background-color: rgb(205, 221, 149);
+    padding-bottom: 16px;
+
+    color: rgb(24, 87, 29);
+}
+#section1 p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+#section1 img{
+    width: 400px;
+    height: 300px;
+    float: right;
+    object-fit: cover;
+    margin-left: 20px;
+    border: 1px solid white;
+}
+
+#section2 {
+    background-color: #86c04f;
+    padding-bottom: 16px;
+}
+#section2 h1 {
+    color: black;
+}
+#section2 li {
+    padding-right: 30px;
+    color: rgb(7, 56, 20);
+}
+#section2 p {
+    line-height: 1.4;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#section2 img {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        float: left;
+        margin-bottom: 24px;
+        margin-right: 12px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#section3 {
+    background-color: #4d6446;
+}
+#section3 h1 {
+        color: rgb(216, 231, 205);
+        line-height: 1.56;
+        margin-bottom: 26px;
+}
+#section3 p {
+    text-align: center;
+    font-size: 26px;
+    padding: 0 125px 0 125px;
+    margin-bottom: 84px;
+    padding-bottom: 15px;
+    line-height: 1.4;
+    color: rgb(197, 214, 181);
+}
+footer {
+    background-color: #2f4737;
+}
+footer p {
+        font-size: 19px;
+        padding: 22px 0 35px 163px;
+        letter-spacing: -.1px;
+        color: rgb(110, 177, 116);
+        margin: 0;
+}
