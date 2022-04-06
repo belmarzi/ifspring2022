@@ -1,0 +1,396 @@
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+            a#btn_moo {
+                display: inline-block;
+                color: #ffffff;
+                background: rgb(90, 91, 93);
+                box-shadow: magenta;
+                margin-top: 100px;
+                padding: 8px 16px;
+                border-radius: 25px;
+                text-decoration: none;
+            }
+            
+            a#btn_moo:hover {
+                background: linear-gradient(rgb(198, 120, 120), #ff008c, #d70ed0, rgb(115, 14, 155));
+                text-decoration: none;
+                font-family: 'arial', sans-serif;
+                color: white;
+                font-weight: 550;
+                letter-spacing: 1.5px;
+            
+            }
+
+            a#btn_cartoon {
+                display: inline-block;
+                position: relative;
+                margin: auto;
+                margin-top: 100px;
+                padding: 8px 1px;
+                background-color: #fcd93c;
+                color: rgb(6, 73, 56);
+                font-family: 'Arial',sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-decoration: none;
+                letter-spacing: -2px;
+            
+            }
+            
+            a#btn_cartoon:hover {
+                color: white;
+            }
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #000000;
+				border: 2px solid #67c11d;
+				color: #67c11d;
+				font-size: 20px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: blink;
+				transition: all .5s;
+			}
+
+			a#btn_spotify:hover {
+				background-color: rgb(237, 255, 145);
+				border: 2px solid rgb(255, 29, 176);
+				color: rgb(5, 110, 95);
+                animation-name: spin;
+                animation-duration: 100000ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear; 
+                /* transform: rotate(3deg); */
+                 /* transform: rotate(0.3rad);/ */
+                 /* transform: rotate(3grad); */ 
+                 /* transform: rotate(.03turn);  */
+              }
+              
+              @keyframes spin {
+                  from {
+                      transform:rotate(0deg);
+                  }
+                  to {
+                      transform:rotate(360deg);
+                  }
+              
+			}
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #dea56d;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #623c15;
+                color: rgb(255, 255, 255);
+                animation-name: spin;
+                animation-duration: 100ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear; 
+                /* transform: rotate(3deg); */
+                 /* transform: rotate(0.3rad);/ */
+                 /* transform: rotate(3grad); */ 
+                 /* transform: rotate(.03turn);  */
+              }
+              
+              @keyframes spin {
+                  from {
+                      transform:rotate(0deg);
+                  }
+                  to {
+                      transform:rotate(360deg);
+                  }
+              }
+                
+			
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 8px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #ffffff;
+				color: rgb(91, 188, 253);
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: rgb(11, 74, 132); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgb(37, 178, 221) 0%, rgb(49, 155, 242) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(-45deg,  rgb(37, 178, 221) 0%,rgb(49, 155, 242) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(135deg,  rgb(37, 178, 221) 0%,rgb(49, 155, 242) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+                color: rgb(255, 255, 255);
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: white wavy underline;
+
+			}
+
+			a#btn_indiegogo {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: rgb(237, 94, 199);
+				color: #ffffff;
+				font-family: '', sans-serif;
+				font-size: 30px;
+				font-weight: lighter;
+				text-transform: lowercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+
+			a#btn_indiegogo:before {
+				content: "";
+				display: block;
+				width: 4;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #ffffff;
+				transition: all .2s;
+			}
+
+			a#btn_indiegogo:hover {
+				color: rgb(142, 229, 55);
+			}
+
+			a#btn_indiegogo:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_indiegogo span {
+				position: relative;
+				z-index: 10;
+			}
+
+            a#btn_potter {
+                display: block;
+                width: 100px;
+                height: 100px;
+                margin: auto;
+                margin-top: 75px;
+                padding-top: 8px;
+                background-color: #720c0c;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 60px;
+                transition: all .2s;
+                text-decoration: none;
+            }
+            
+            a#btn_potter:hover {
+                background: linear-gradient(135deg,  rgb(255, 233, 124) 0%,rgb(255, 204, 0) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 );
+                color: rgb(82, 11, 11);
+                
+            }
+            a#btn_velocity {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #ff0000;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+                text-decoration: none;
+                animation-name: spin;
+                animation-duration: 400ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear; 
+                /* transform: rotate(3deg); */
+                 /* transform: rotate(0.3rad);/ */
+                 /* transform: rotate(3grad); */ 
+                 /* transform: rotate(.03turn);  */
+              }
+              
+              @keyframes spin {
+                  from {
+                      transform:rotate(0deg);
+                  }
+                  to {
+                      transform:rotate(360deg);
+                  }
+              }
+
+			a#btn_velocity:hover {
+				background-color: #000000;
+                color: rgb(255, 0, 0);
+                animation-name: spin;
+                animation-duration: 2000ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear; 
+                /* transform: rotate(3deg); */
+                 /* transform: rotate(0.3rad);/ */
+                 /* transform: rotate(3grad); */ 
+                 /* transform: rotate(.03turn);  */
+              }
+              
+              @keyframes spin {
+                  from {
+                      transform:rotate(0deg);
+                  }
+                  to {
+                      transform:rotate(360deg);
+                  }
+              }
+
+              a#btn_jude {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 6px 30px 0 30px;
+				background-color: #ffa875;
+                border: 4px solid #ffdf9f;
+				color: rgb(255, 255, 255);
+				font-size: 25px;
+                font-family: 'Times New Roman', serif;
+				font-weight: lighter;
+				text-decoration: none;
+                transition: 0.5s;
+			}
+
+			a#btn_jude:hover {
+                background-color: rgb(255, 255, 255);
+                color: #ff8661;
+                border: 2px solid rgb(255, 255, 255);
+                box-shadow: 0px 5px 10px 2px rgb(158, 158, 158);
+            }
+
+
+			a#btn_harley {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 8px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #000000;
+				color: rgb(255, 162, 0);
+				font-size: 18px;
+				font-family: 'Times New Roman', Times, serif;
+				font-weight: bold;
+				text-decoration: none;
+                animation-name: spin;
+                animation-duration: 400ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear; 
+                /* transform: rotate(3deg); */
+                 /* transform: rotate(0.3rad);/ */
+                 /* transform: rotate(3grad); */ 
+                 /* transform: rotate(.03turn);  */
+              }
+              
+              @keyframes spin {
+                  from {
+                      transform:rotate(0deg);
+                  }
+                  to {
+                      transform:rotate(360deg);
+                  }
+			}
+
+			a#btn_harley:hover {
+
+				background: rgb(255, 255, 255); 
+                color: rgb(255, 162, 0);
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: white wavy underline;
+                animation-name: spin;
+                animation-duration: 100000ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear; 
+                /* transform: rotate(3deg); */
+                 /* transform: rotate(0.3rad);/ */
+                 /* transform: rotate(3grad); */ 
+                 /* transform: rotate(.03turn);  */
+              }
+              
+              @keyframes spin {
+                  from {
+                      transform:rotate(0deg);
+                  }
+                  to {
+                      transform:rotate(360deg);
+                  }
+			}
+            
+           
+
